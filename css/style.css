@@ -1,0 +1,694 @@
+@media screen and (min-width: 769px){
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Myriad Pro;
+    font-style: italic;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 150px;
+   margin: auto;
+}
+
+.humbergermenu {
+    display: none;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    padding: 0 30px;
+}
+
+.index-h2-black {
+    font-size: 60px;
+    text-align: center;
+   font-weight: 900;
+}
+
+.membership-main-visual {
+    background-color: black;
+}
+
+.membership-main-visual > img {
+    height: 600px;
+}
+
+
+.main-visual > img {
+    height: 600px;
+}
+
+.whatiscrossfit-content{
+    max-width: 1000px;
+    max-height: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.p-black  {
+    line-height: 2em;
+    font-weight: 500;
+    text-align: left;
+    font-size: 21px;
+    padding-bottom: 50px;
+    display: inline-block;
+    
+}
+
+
+.index-h2-white {
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFD;
+    padding-top: 50px;
+    margin-top: 0;
+    font-weight: 900;
+}
+
+.levelup-content {
+    max-width: 800px;
+    margin: auto;
+    max-height: 600px;
+    text-align: center;
+}
+
+.p-white  {
+    line-height: 2em;
+    font-weight: 500;
+    text-align: left;
+    color: aliceblue;
+    font-size: 21px;
+    display: inline-block;
+}
+
+.levelup-botton {
+    width: 300px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#levelup {
+    background-color: black;
+}
+
+#download {
+    max-width: 800px;
+    max-height: 400px;
+    margin: auto;
+    background-color: #FFFFFD;
+}
+
+#download > div {
+    display: flex;
+}
+
+.download-right-apps-images {
+    display: flex;
+    width: 400px;
+    padding-top: 50px;
+}
+
+.download-right {
+    padding-top: 50px;
+}
+
+#trycrossfit {
+    background-color: black;
+    text-align: center;
+}
+
+
+.joinnow-white-botton {
+    width: 200px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer-logo {
+    width: 150px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.groupfitnessjustgotglorious-content {
+    text-align: center;
+    margin: auto;
+}
+
+#programs {
+    background-color: black;
+}
+
+#programs > div {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.programs {
+    width: 30%;
+}
+
+.programs-images {
+    width: 60%;
+}
+
+.programs > .programs-images {
+    margin: auto;
+}
+ .programs-title {
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFD;
+ }
+
+ .programs-text {
+    width: 250px;
+    margin: auto;
+    line-height: 2em;
+    color: #FFFFFD;
+    font-size: 20px;
+ }
+
+ .aboutcrossfit-content {
+     text-align: center;
+ }
+
+ 
+
+ #crossfit {
+    background-color: black;
+ }
+
+ #crossfit > div > .crossfit-above{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+ }
+
+ .crossfit-above-box {
+    width: 40%;
+ }
+
+ .crossfit-images {
+    width: 50%;
+    margin: auto;
+ }
+
+ #crossfit > div > .crossfit-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+ }
+
+ .membership > div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+ }
+
+ .membership {
+    background-color: black;
+ }
+
+ .membership-box-image {
+    padding-bottom: 30px;
+ }
+
+ #contact {
+    background-color: black;
+ }
+
+ #contact > div {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+ }
+
+ .contact-left {
+    width: 50%;
+    margin-left: 30px;
+ }
+
+ .contact-right {
+    width: 50%;
+    margin: auto;
+ }
+
+ .contact-right > .contact-right-image {
+    width: 70%;
+    margin: auto;
+ }
+
+
+ 
+ .contact-title {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fafafa;
+ }
+
+
+.textbox {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 100%;
+    height: 50px;
+}
+
+.label {
+    color: #fafafa;
+    font-size: 20px;
+}
+
+.send-botton {
+    width: 200px;
+    padding-top: 50px;
+    margin: auto;
+}
+ 
+.formbox {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#contact-img {
+    border-radius: 30px;
+}
+}
+
+
+@media screen and (max-width: 479px) {
+
+    .nav-menu {
+        display: none;
+    }
+
+    .menu-btn {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        display: flex;
+        height: 40px;
+        width: 40px;
+        justify-content: center;
+        align-items: center;
+        z-index: 90;
+        background-color: black;
+    }
+    .menu-btn span,
+    .menu-btn span:before,
+    .menu-btn span:after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 25px;
+        border-radius: 3px;
+        background-color: #ffffff;
+        position: absolute;
+    }
+    .menu-btn span:before {
+        bottom: 8px;
+    }
+    .menu-btn span:after {
+        top: 8px;
+    }
+
+    #menu-btn-check:checked ~ .menu-btn span {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    #menu-btn-check:checked ~ .menu-btn span::before {
+        bottom: 0;
+        transform: rotate(45deg);
+    }
+    #menu-btn-check:checked ~ .menu-btn span::after {
+        top: 0;
+        transform: rotate(-45deg);
+    }
+
+    #menu-btn-check {
+        display: none;
+    }
+
+    .menu-content {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        z-index: 80;
+        background-color: black;
+        transition: all 0.5s;
+    }
+    .menu-content ul {
+        padding: 70px 10px 0;
+    }
+    .menu-content ul li {
+        border-bottom: solid 1px #ffffff;
+        list-style: none;
+    }
+    .menu-content ul li a {
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        box-sizing: border-box;
+        color:#ffffff;
+        text-decoration: none;
+        padding: 9px 15px 10px 0;
+        position: relative;
+    }
+    .menu-content ul li a::before {
+        content: "";
+        width: 7px;
+        height: 7px;
+        border-top: solid 2px #ffffff;
+        border-right: solid 2px #ffffff;
+        transform: rotate(45deg);
+        position: absolute;
+        right: 11px;
+        top: 16px;
+    }
+
+    #menu-btn-check:checked ~ .menu-content {
+        left: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Myriad Pro;
+        font-style: italic;
+    }
+    
+
+    img {
+        max-width: 479px;
+    }
+    main {
+        margin: 0 auto;
+       }
+   
+       img {
+           width: 100%;
+       }
+
+       .logo {
+        width: 150px;
+       margin: auto;
+    }
+
+
+    .index-h2-black {
+    font-size: 30px;
+    text-align: center;
+   font-weight: 900;
+    }
+
+    .membership-main-visual {
+    background-color: black;
+    }
+    
+    .whatiscrossfit-content{
+       
+        margin: auto;
+        text-align: center;
+    }
+    
+    .p-black  {
+        line-height: 2em;
+        font-weight: 500;
+        text-align: left;
+        font-size: 18px;
+        padding-bottom: 30px;
+        display: inline-block;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    
+    .index-h2-white {
+        font-size: 30px;
+        text-align: center;
+        color: #FFFFFD;
+        padding-top: 30px;
+        margin-top: 0;
+        font-weight: 900;
+    }
+    
+    .levelup-content {
+       
+        margin: auto;
+        
+        text-align: center;
+    }
+    
+    .p-white  {
+        line-height: 2em;
+        font-weight: 500;
+        text-align: left;
+        color: aliceblue;
+        font-size: 18px;
+        display: inline-block;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .levelup-botton {
+        width: 200px;
+        margin: auto;
+        padding-bottom: 30px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    
+    #levelup {
+        background-color: black;
+    }
+    
+    #download {
+        max-width: 800px;
+        max-height: 400px;
+        margin: auto;
+        background-color: #FFFFFD;
+    }
+
+
+#download > div {
+    display: flex;
+}
+
+.download-right-apps-images {
+    display: flex;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.download-right {
+    padding-top: 50px;
+}
+
+#trycrossfit {
+    background-color: black;
+    text-align: center;
+}
+
+
+.joinnow-white-botton {
+    width: 100px;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.download-left {
+    padding-top: 30px;
+}
+
+.footer-logo {
+    width: 150px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.footer-nav-menu {
+    display: none;
+}
+
+.groupfitnessjustgotglorious-content {
+    text-align: center;
+    margin: auto;
+}
+
+#programs {
+    background-color: black;
+}
+
+#programs > div {
+    padding-top: 30px;
+}
+
+.programs {
+    width: 50%;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.programs > .programs-images {
+    margin: auto;
+}
+ .programs-title {
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFD;
+ }
+
+ .programs-text {
+    width: 250px;
+    margin: auto;
+    line-height: 2em;
+    color: #FFFFFD;
+    font-size: 18px;
+ }
+
+ .aboutcrossfit-content {
+     text-align: center;
+ }
+
+ #crossfit {
+    background-color: black;
+ }
+
+ .crossfit-images {
+    width: 50%;
+    margin: auto;
+ }
+ .crossfit-above-box {
+    padding-bottom: 30px;
+ }
+
+ .crossfit-bottom-box {
+    padding-bottom: 30px;
+ }
+ 
+ .membership > div {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+ }
+
+ .membership {
+    background-color: black;
+ }
+
+ 
+ #contact {
+    background-color: black;
+ }
+
+ #contact > div {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+ }
+
+ .contact-title {
+    font-size: 30px;
+    font-weight: 900;
+    color: #fafafa;
+   text-align: center;
+ }
+
+
+.textbox {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 100%;
+    height: 50px;
+}
+
+.label {
+    color: #fafafa;
+    font-size: 20px;
+}
+
+.send-botton {
+    width: 200px;
+    padding-top: 50px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+ 
+.formbox {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#contact-img {
+    border-radius: 30px;
+}
+
+.contact-right > .contact-right-image {
+    margin: auto;
+    width: 70%;
+}
+
+    
+}
